@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box; 
+}
+
+table,
+th,
+td {
+  text-align: center;
+   padding: 5px;  
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid olive;
+}
+
+th,
+td {
+  border-bottom: 2px solid olive;
+}
+
+tbody tr:hover {background-color: #f5f5f5}
+
+#table-container {
+  width: 80%;
+  min-width: 600px;
+  position: relative;
+  padding-bottom: 21px;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.label {
+  position: absolute;
+  right: 1px;
+  bottom: -6px;
+  background: olive;
+  color: white;
+  font-size: 20px;
+  padding: 3px;
+}
